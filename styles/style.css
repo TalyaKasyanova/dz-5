@@ -1,0 +1,248 @@
+:root {
+    --main-background-color: #ffffff;
+    --second-background-color: #F6F6F6;
+
+    --main-font-color: #070707;
+    --second-font-color: #828282;
+    --accent-color: #7d14d3;
+
+    --main-font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 1.36;
+
+    color: var(--main-font-color);
+    background-color: var(--main-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:focus,
+.link:hover {
+    color: var(--main-font-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.activ {
+    color: var(--main-font-color);
+    position: relative;
+}
+
+/* header */
+
+.navigation {
+    border-bottom: 1px solid var(--second-font-color);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nav-item {
+    color: var(--second-font-color);
+}
+
+.nav-list .nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+/*   promo   */
+
+.hero {
+    height: 500px;
+}
+
+.main-title {
+    font-size: 48px;
+
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.promo {
+    background-image: url(../images/photox940.jpg);
+    background-color: var(--second-background-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    height: 390px;
+}
+
+/*   about-us   */
+
+.about-us {
+    background-color: var(--second-background-color);
+
+    text-align: center;
+}
+
+.about-us .container {
+    padding: 100px 245px;
+}
+
+.about-us-title {
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.about-us-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-us-last-text {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/*   skills   */
+
+.second-title {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.skills-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.skills-list,
+.icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list {
+    margin-bottom: 100px;
+}
+
+.skills-list .skills-item:not(:last-child) {
+    margin-right: 97px;
+}
+
+.icon-list .icon-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.skills-item-icon {
+    display: block;
+    margin: auto;
+}
+
+.skills-list-text {
+    margin-top: 25px;
+    margin-bottom: 60px;
+
+    text-align: center;
+    font-size: 14px;
+    color: var(--second-font-color);
+}
+
+/*   portfolio   */
+
+.portfolio {
+    background-color: var(--second-background-color);
+}
+
+.portfolio-list {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.portfolio-link {
+    display: block;
+    margin: auto;
+}
+
+/*   footer  */
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.button {
+    display: block;
+    align-items: center;
+    border: none;
+    background-color: var(--main-font-color);
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--main-background-color);
+    border-radius: 22px;
+    padding: 10px 16px;
+    margin: auto;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.social-list .social-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.footer-last-text {
+    text-align: center;
+    color: var(--second-font-color);
+
+    padding-bottom: 100px;
+}
