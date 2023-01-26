@@ -6,7 +6,7 @@
     --second-font-color: #828282;
     --accent-color: #7d14d3;
 
-    --main-font-family: 'Open Sans', sans-serif;
+    --main-font-family: 'Gilroy', sans-serif;
 }
 
 *,
@@ -33,9 +33,10 @@ img {
 }
 
 .container {
-    max-width: 970px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .link {
@@ -54,9 +55,16 @@ img {
 
 .activ {
     color: var(--main-font-color);
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
 }
 
 /* header */
+
+.main-header {
+    padding: 25px 0;
+}
 
 .navigation {
     border-bottom: 1px solid var(--second-font-color);
@@ -64,43 +72,36 @@ img {
 
 .nav-list {
     display: flex;
-    justify-content: center;
-
-    margin-top: 25px;
-    margin-bottom: 25px;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 32px;
 }
 
 .nav-item {
     color: var(--second-font-color);
 }
 
-.nav-list .nav-item:not(:last-child) {
-    margin-right: 40px;
-}
-
 /*   promo   */
 
 .hero {
-    height: 500px;
+    padding: 40px 0 100px 0;
 }
 
 .main-title {
+    max-width: 150px;
+    widows: 100%;
     font-size: 48px;
-    padding-top: 12px;
     margin-bottom: 35px;
     font-weight: 700;
-}
 
-.hero {
-    background-image: url(../images/photox940.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
+    line-height: 59px;
 }
 
 /*   about-us   */
 
 .about-me {
     background-color: var(--second-background-color);
+    padding: 100px 0;
 }
 
 .about-me .container {
@@ -112,7 +113,6 @@ img {
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 50px;
-    margin-top: 100px;
 }
 
 .about-me-text {
@@ -125,14 +125,14 @@ img {
     margin-bottom: 30px;
 }
 
-.container .about-me-text:last-child {
-    margin-bottom: 100px;
-}
-
 /*   skills   */
 
+
+.skills {
+    padding: 100px 0;
+}
+
 .second-title {
-    padding-top: 100px;
     text-align: center;
     font-size: 34px;
     font-weight: 700;
@@ -148,10 +148,6 @@ img {
 .icon-list {
     display: flex;
     justify-content: center;
-}
-
-.skills-list {
-    margin-bottom: 100px;
 }
 
 .skills-list .skills-item:not(:last-child) {
@@ -180,10 +176,7 @@ img {
 
 .portfolio {
     background-color: var(--second-background-color);
-}
-
-.portfolio-list {
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .portfolio-link {
@@ -203,10 +196,16 @@ img {
 
 /*   footer  */
 
+.main-footer {
+    padding: 100px 0;
+}
+
+.main-footer .second-title {
+    margin-bottom: 20px;
+}
+
 .footer-text {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 60px;
 }
 
 .button {
@@ -222,6 +221,8 @@ img {
     border-radius: 22px;
     padding: 10px 16px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 86px;
 }
 
 .button:hover,
@@ -245,7 +246,4 @@ img {
     font-size: 14px;
     text-align: center;
     color: var(--second-font-color);
-
-    padding-bottom: 100px;
-
 }
