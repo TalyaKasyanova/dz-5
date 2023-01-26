@@ -1,4 +1,4 @@
-# dz5 Figma 
+# 5.Figma + 7.CSS + 13.Font Face
 
 <h2>5. Figma</h2>
  
