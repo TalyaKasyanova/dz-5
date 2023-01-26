@@ -55,9 +55,7 @@ img {
 
 .activ {
     color: var(--main-font-color);
-    font-family: 'Gilroy-Bold';
-    font-size: 18px;
-    line-height: 22px;
+    font-weight: 700;
 }
 
 /* header */
