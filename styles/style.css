@@ -6,7 +6,7 @@
     --second-font-color: #828282;
     --accent-color: #7d14d3;
 
-    --main-font-family: 'Gilroy', sans-serif;
+    --main-font-family: 'Gilroy-Regular', sans-serif;
 }
 
 *,
@@ -87,7 +87,7 @@ img {
 
 .main-title {
     max-width: 150px;
-    widows: 100%;
+    width: 100%;
     font-size: 48px;
     margin-bottom: 35px;
     font-weight: 700;
